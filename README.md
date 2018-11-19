@@ -72,16 +72,7 @@ Copy `runner.yml.dist` to `runner.yml` and change the configuration to match
 your local environment. Typically you will need to specify `localhost` as your
 database host, and change your base URL and database credentials.
 
-*Step 3: Build*
-
-```bash
-./vendor/bin/run drupal:site-setup
-```
-
-This will symlink the module in the proper directory within the test environment
-and perform token substitution in test configuration files.
-
-*Step 4: Install*
+*Step 3: Install*
 
 ```bash
 ./vendor/bin/run drupal:site-install
