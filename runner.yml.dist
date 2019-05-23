@@ -9,6 +9,7 @@ drupal:
     password: ""
   post_install:
     - "./vendor/bin/drush en oe_webtools_geocoding -y"
+    - "./vendor/bin/drush en oe_webtools_maps -y"
     - "./vendor/bin/drush cr"
   settings:
     settings:
