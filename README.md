@@ -1,6 +1,11 @@
+# Deprecated
+
+This repository has been deprecated in favor of the [OpenEuropa Webtools](https://github.com/openeuropa/oe_webtools) component,
+all the functionality that was available in this repository will continue to be supported there instead.
+
 # OpenEuropa Webtools Location Services
 
-[![Build Status](https://drone.fpfis.eu/api/badges/openeuropa/oe_webtools_location/status.svg?branch=master)](https://drone.fpfis.eu/openeuropa/oe_webtools_location)
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 This is a Drupal module that provides integration with Webtools location
 services, such as geocoding and maps.
